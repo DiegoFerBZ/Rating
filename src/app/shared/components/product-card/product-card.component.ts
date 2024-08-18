@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
-import { BasicButtonComponent } from '../basic-button/basic-button.component';
+import { BasicButtonComponent } from '../../elements/basic-button/basic-button.component';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
-import { ProductDetailComponent } from '../../components/modals/product-detail/product-detail.component';
+import { ProductDetailComponent } from '../modals/product-detail/product-detail.component';
 
 
 @Component({

@@ -1,0 +1,27 @@
+.product-card {
+  max-width: 400px;
+  margin: 20px auto;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.3px);
+  -webkit-backdrop-filter: blur(7.3px);
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+.product-header-image {
+  background-image: url("https://via.placeholder.com/40");
+  background-size: cover;
+}
+
+mat-card-title {
+  font-weight: bold;
+}
+
+mat-card-content p {
+  margin: 0;
+}

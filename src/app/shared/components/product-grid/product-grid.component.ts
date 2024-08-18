@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ProductCardComponent } from '../../elements/product-card/product-card.component';
+import { ProductCardComponent } from '../product-card/product-card.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 
 @Component({
