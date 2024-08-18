@@ -1,0 +1,26 @@
+<mat-dialog-content class="modal-content">
+    <div class="modal-body">
+      <!-- Imagen en la izquierda -->
+      <div class="modal-image">
+        <img src="https://via.placeholder.com/150" alt="Imagen" />
+      </div>
+      
+      <!-- Descripción en la derecha -->
+      <div class="modal-description">
+        <h2>Título del Modal</h2>
+        <p>Esta es una breve descripción del contenido que quieres mostrar en el modal.</p>
+      </div>
+    </div>
+  
+    <div class="modal-comments">
+      <h3>Comentarios</h3>
+      <textarea placeholder="Escribe un comentario..."></textarea>
+      <app-basic-button label="enviar"></app-basic-button>
+    </div>
+    
+    <app-comments-list></app-comments-list>
+  </mat-dialog-content>
+  
+  <mat-dialog-actions align="end">
+  </mat-dialog-actions>
+  

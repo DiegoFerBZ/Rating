@@ -1,0 +1,26 @@
+.comments-list {
+    max-width: 600px; /* Ajusta el ancho máximo según lo necesites */
+    max-height: 300px; /* Establece la altura máxima */
+    margin: 0 auto; /* Centra la lista */
+    border: 1px solid #ccc; /* Agrega un borde opcional */
+    padding: 10px; /* Espacio interno opcional */
+    box-sizing: border-box; /* Incluye padding y border en las dimensiones totales */
+  }
+  
+  .comment-user {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .comment-text {
+    margin: 5px 0;
+    font-size: 12px;
+    color: #666;
+  }
+
+  mat-list{
+    overflow-y: auto; /* Habilita el scroll vertical */
+
+  }
+  
+  

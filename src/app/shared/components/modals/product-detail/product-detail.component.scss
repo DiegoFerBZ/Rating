@@ -1,0 +1,56 @@
+.modal-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-body {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  
+  .modal-image {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .modal-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .modal-description {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  .modal-description h2 {
+    margin-top: 0;
+  }
+  
+  .modal-comments {
+    margin-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+  }
+  
+  .modal-comments h3 {
+    margin-bottom: 10px;
+  }
+  
+  .modal-comments textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 10px;
+  }
+  
+  .modal-comments button {
+    float: right;
+  }
+  

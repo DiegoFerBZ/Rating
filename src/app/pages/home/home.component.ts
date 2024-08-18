@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
-import { BasicButtonComponent } from "../../shared/components/basic-button/basic-button.component";
+import { ProductGridComponent } from '../../shared/components/product-grid/product-grid.component';
 
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [BasicButtonComponent,
+  imports: [ProductGridComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
